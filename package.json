@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "serve": "vite serve", "_comment1": "для того, чтобы запускалось в формате npm run serve, надо было написть <--эту строчку",
     "build": "vite build",
     "preview": "vite preview"
   },
