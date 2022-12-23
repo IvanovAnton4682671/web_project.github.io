@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import HeaderApp from '@/components/HeaderApp.vue'
+  import HeaderApp from '@/components/HeaderApp.vue';
   import BodyApp from "@/components/BodyApp.vue";
   import FooterApp from "@/components/FooterApp.vue";
 
