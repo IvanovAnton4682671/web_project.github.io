@@ -1,6 +1,6 @@
 <template>
   <header class = "navbar-region">
-    <img class = "img-fluid mask" src = "../assets/img/druplicon.svg" alt = "mask"/>
+    <img class = "img-fluid morda" src = "../assets/img/druplicon.svg" alt = "mask"/>
     <div class = "header-background">
       <video autoplay muted loop class = "video-back">
         <source src = "../assets/video/header_video.mp4" type = "video/mp4"/>
@@ -111,7 +111,7 @@
 </script>
 
 <style scoped>
-  .mask
+  .morda
   {
     position: absolute;
     z-index: -0.5;
