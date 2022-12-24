@@ -1,12 +1,14 @@
 <template>
   <HeaderApp></HeaderApp>
-  <BodyApp></BodyApp>
+  <CompetencyApp></CompetencyApp>
+  <SupportApp></SupportApp>
   <FooterApp></FooterApp>
 </template>
 
 <script>
   import HeaderApp from '@/components/HeaderApp.vue';
-  import BodyApp from "@/components/BodyApp.vue";
+  import CompetencyApp from "@/components/CompetencyApp.vue";
+  import SupportApp from "@/components/SupportApp.vue";
   import FooterApp from "@/components/FooterApp.vue";
 
   export default
@@ -14,9 +16,10 @@
     name: 'App',
     components:
         {
-          FooterApp,
           HeaderApp,
-          BodyApp,
+          CompetencyApp,
+          SupportApp,
+          FooterApp,
         },
   }
 </script>
