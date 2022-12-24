@@ -1,5 +1,5 @@
 <template>
-  <div class = "container-fluid pt-3 pb-5 pb-md-0 footer_region" id = "footerRegion">
+  <div class = "container-fluid pt-3 pb-5 pb-md-0 footer_region" id = "FooterApp">
     <div class = "footer_background"></div>
     <div class = "row d-flex mt-2 px-2">
       <div class = "col-11 col-md-10 mx-auto px-0">

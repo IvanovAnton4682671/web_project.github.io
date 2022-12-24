@@ -4,7 +4,7 @@
       <div class = "container">
         <div class = "row">
           <div class = "col-md-6">
-            <h1 class = "competency-title">13 лет совершенствуем компетенции в Drupal поддержке!</h1>
+            <h1 class = "competency-title">13 лет совершенствуем компетенции в Друпал поддержке!</h1>
             <div class = "competencies-description">Разрабатываем и оптимизируем модули, расширяем функциональность сайтов, обновляем дизайн</div>
           </div>
         </div>
