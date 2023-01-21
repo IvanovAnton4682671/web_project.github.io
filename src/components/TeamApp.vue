@@ -76,8 +76,8 @@
         </div>
       </div>
     </div>
-    <div class = "price-footer text-center mt-2">
-      <a href = "#FooterApp" role = "button" class = "btn btn-outline-light btn-price button_team">вся команда</a>
+    <div class = "text-center mt-2">
+      <a href = "#FooterApp" role = "button" class = "btn btn-outline-light button_team">вся команда</a>
     </div>
   </div>
 </template>

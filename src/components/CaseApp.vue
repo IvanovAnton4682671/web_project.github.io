@@ -41,7 +41,7 @@
           <a href="#">
             <div class="cringe position-relative">
               <div class="case-image-internalized">
-                <img src="../assets/img/img_case3.jpeg" class="img-fluid" alt="3"/>
+                <img src="../assets/img/img_noyt2.png" class="img-fluid" alt="3" style = "filter: blur(1px)"/>
               </div>
               <div class="header-date header-date-internalized px-3">
                 <h5><b> Повышение конверсии страницы с формой заявки с применением AB-тестирования
@@ -59,7 +59,7 @@
           <a href="#">
             <div class="cringe position-relative">
               <div class="case-image-internalized">
-                <img src="../assets/img/img_case4.jpeg" class="img-fluid" alt="4"/>
+                <img src="../assets/img/img_case4.jpeg" class="img-fluid" alt="4" style = "filter: blur(1px)"/>
               </div>
               <div class="header-date header-date-internalized px-3">
                 <h5><b> Drupal 7: ускорение времени генерации страниц интернет-магазина на 32% </b> </h5>

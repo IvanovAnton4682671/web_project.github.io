@@ -13,11 +13,14 @@
               <div class = "competency-wrapper">
                 <div class = "competency-header">
                   <div class = "competency-icon">
-                    <img src = "../assets/img/competency-20.svg" alt = "competency-20" class = "img-responsive"/>
+                    <div class = "container">
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/competency-20.svg" alt = "competency-20" class = "img-responsive position-relative" style = "margin-left: 3em"/>
+                    </div>
                   </div>
                 </div>
-                <h1>от 1ч</h1>
-                <div class = "competency-body">Настройка события GA в интернет-магазине</div>
+                <h1 style = "margin-left: 1.5em">от 1ч</h1>
+                <div class = "competency-body col-8" style = "margin-left: 3em">Настройка события GA в интернет-магазине</div>
               </div>
             </div>
           </div>
@@ -26,11 +29,14 @@
               <div class = "competency-wrapper">
                 <div class = "competency-header">
                   <div class = "competency-icon">
-                    <img src = "../assets/img/competency-21.svg" alt = "competency-21" class = "img-responsive"/>
+                    <div class = "container">
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/competency-21.svg" alt = "competency-21" class = "img-responsive position-relative" style = "margin-left: 3em"/>
+                    </div>
                   </div>
                 </div>
-                <h1>от 20ч</h1>
-                <div class = "competency-body">Разработка мобильной версии сайта</div>
+                <h1 style = "margin-left: 1.5em">от 20ч</h1>
+                <div class = "competency-body col-8" style = "margin-left: 3em">Разработка мобильной версии сайта</div>
               </div>
             </div>
           </div>
@@ -39,11 +45,14 @@
               <div class = "competency-wrapper">
                 <div class = "competency-header">
                   <div class = "competency-icon">
-                    <img src = "../assets/img/competency-22.svg" alt = "competency-22" class = "img-responsive"/>
+                    <div class = "container">
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/competency-22.svg" alt = "competency-22" class = "img-responsive position-relative" style = "margin-left: 3em"/>
+                    </div>
                   </div>
                 </div>
-                <h1>от 8ч</h1>
-                <div class = "competency-body">Интеграция модуля оплаты</div>
+                <h1 style = "margin-left: 1.5em">от 8ч</h1>
+                <div class = "competency-body col-6" style = "margin-left: 3em">Интеграция модуля оплаты</div>
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 <template>
-  <div class="container-fluid" id="rate">
-    <img class = "img-fluid logoBackground" src = "../assets/img/drupal-coder.svg" alt = "logo"/>
+  <div class="container-fluid" id="RatesApp" style = "margin-top: 10em">
     <div class="row price-wrapper">
       <div class="col-12 my-4 price-header text-center text-black">
         <h1>
@@ -260,7 +259,7 @@
     </div>
     <div class="row">
       <div class="col-3"></div>
-      <div class="col-6 rate-link-block text-center">
+      <div class="col-3 rate-link-block text-center" style = "margin-left: 15em">
         Вам не подходят наши тарифы? Оставьте заявку и мы предложим вам индивидуальные условия!
         <a href="#FooterApp" class="rate-link d-block mt-3">Получить индивидуальный тариф</a>
       </div>

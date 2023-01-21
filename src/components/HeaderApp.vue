@@ -59,9 +59,9 @@
     <div class = "header-data container-fluid">
       <div class = "row d-flex" id = "header-data">
         <div class = "col-10 col-lg-5 px-3 text-start me-auto ms-4 py-5">
-          <h1 class = "text-about-main">Поддержка сайтов на Drupal</h1>
-          <div class = "text-about-service">Сопровождение и поддержка сайтов на CMS Drupal любых версий и запущенности</div>
-          <a class = "btn btn-outline-light btn-tariff mt-5" href = "#tariff" role = "button">Тарифы</a>
+          <h1 class = "text-about-main col-8">Поддержка сайтов на Drupal</h1>
+          <div class = "text-about-service col-6">Сопровождение и поддержка сайтов на CMS Drupal любых версий и запущенности</div>
+          <a href = "#RatesApp" class = "btn btn-outline-light btn-tariff mt-5" role = "button" style = "margin-bottom: 10em">тарифы</a>
         </div>
         <div class = "col-11 col-lg-6 me-sm-3 mx-auto mt-3 pb-5 pb-lg-0 py-5">
           <div class = "row">

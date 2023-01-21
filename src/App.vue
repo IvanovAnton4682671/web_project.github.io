@@ -6,8 +6,8 @@
   <TimeApp></TimeApp>
   <TeamApp></TeamApp>
   <CaseApp></CaseApp>
-
-
+  <SliderApp></SliderApp>
+  <RingsApp></RingsApp>
   <FaqApp></FaqApp>
   <FooterApp></FooterApp>
 </template>
@@ -20,15 +20,16 @@
   import TimeApp from "@/components/TimeApp.vue";
   import TeamApp from "@/components/TeamApp.vue"
   import CaseApp from "@/components/CaseApp.vue";
-  import FooterApp from "@/components/FooterApp.vue";
+  import SliderApp from "@/components/SliderApp.vue";
+  import RingsApp from "@/components/RingsApp.vue"
   import FaqApp from "@/components/FaqApp.vue";
+  import FooterApp from "@/components/FooterApp.vue";
 
   export default
   {
     name: 'App',
     components:
         {
-          FaqApp,
           HeaderApp,
           CompetencyApp,
           SupportApp,
@@ -36,6 +37,9 @@
           TimeApp,
           TeamApp,
           CaseApp,
+          SliderApp,
+          RingsApp,
+          FaqApp,
           FooterApp,
         },
   }

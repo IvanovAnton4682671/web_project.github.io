@@ -5,8 +5,8 @@
       <div class = "col-11 col-md-10 mx-auto px-0">
         <div class = "row">
           <div class = "col-11 col-md-5 mx-auto">
-            <h5 class = "text-head-footer text-md-start text-xxl-center text-white">Оставить заявку на<br/>поддержку сайта</h5>
-            <p class = "text-extra-footer text-start text-white">
+            <h1>Оставить заявку на поддержку сайта</h1>
+            <p class = "col-10 text_">
               Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой?
               Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!
             </p>
@@ -67,6 +67,18 @@
 </script>
 
 <style scoped>
+
+h1
+{
+  color: #e5e5e5;
+  margin-bottom: 1em;
+}
+
+.text_
+{
+  color: #e5e5e5;
+  margin-bottom: 5em;
+}
   .footer_region
   {
     position: relative;
