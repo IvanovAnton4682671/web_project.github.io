@@ -1,5 +1,5 @@
 <template>
-  <div class = "container-fluid" style = "margin-top: 50px">
+  <div class = "container-fluid ots" style = "margin-top: 50px">
     <div class = "text-center">
       <h1>Отзывы</h1>
     </div>
@@ -215,6 +215,94 @@
 </script>
 
 <style scoped>
+
+@media (max-width: 1280px)
+{
+  .ots
+  {
+    margin-bottom: 3000px;
+  }
+}
+
+@media (max-width: 1024px)
+{
+  .ots
+  {
+    margin-bottom: 3500px;
+  }
+}
+
+@media (max-width: 912px)
+{
+  .ots
+  {
+    margin-bottom: 4100px;
+  }
+}
+
+@media (max-width: 820px)
+{
+  .ots
+  {
+    margin-bottom: 4100px;
+  }
+}
+
+@media (max-width: 768px)
+{
+  .ots
+  {
+    margin-bottom: 4200px;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .ots
+  {
+    margin-bottom: 5200px;
+  }
+}
+
+@media (max-width: 540px)
+{
+  .ots
+  {
+    margin-bottom: 5800px;
+  }
+}
+
+@media (max-width: 420px)
+{
+  .ots
+  {
+    margin-bottom: 7700px;
+  }
+}
+
+@media (max-width: 393px)
+{
+  .ots
+  {
+    margin-bottom: 7900px;
+  }
+}
+
+@media (max-width: 375px)
+{
+  .ots
+  {
+    margin-bottom: 8500px;
+  }
+}
+
+@media (max-width: 280px)
+{
+  .ots
+  {
+    margin-bottom: 11500px;
+  }
+}
 
   .item1
   {
