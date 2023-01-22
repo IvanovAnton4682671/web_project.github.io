@@ -1,24 +1,12 @@
-# test
-
-## Project setup
+### Проект по дисциплине "Разработа пользовательского Web-интерфейса".
+### Над проектом работали студенты 24 группы: Ерюшев Иван, Иванов Антон, Анчок Магамет.
+### Важные команды
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
+npm audit fix
+npm audit fix --force
 npm run serve
-```
-
-### Compiles and minifies for production
-```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

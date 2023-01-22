@@ -6,7 +6,7 @@
         <div class="blog-body position-relative">
           <article>
             <a href="#">
-              <div class="case-image">
+              <div class="case-image ots1">
                 <img src="../assets/img/img_noyt1.jpg" class="img-fluid" alt="1"/>
               </div>
               <div class="header-date px-3 py-4">
@@ -26,7 +26,7 @@
         <article>
           <a href="#">
             <div class="case-body position-relative">
-              <div class="case-image-internalized main-image">
+              <div class="case-image ots2">
                 <img src="../assets/img/img_case2.jpg"  class="img-fluid" alt="2"/>
               </div>
               <div class="header-date header-date-internalized px-3 py-4">
@@ -40,7 +40,7 @@
         <article>
           <a href="#">
             <div class="cringe position-relative">
-              <div class="case-image-internalized">
+              <div class="case-image ots3">
                 <img src="../assets/img/img_noyt2.png" class="img-fluid" alt="3" style = "filter: blur(1px)"/>
               </div>
               <div class="header-date header-date-internalized px-3">
@@ -58,7 +58,7 @@
         <article>
           <a href="#">
             <div class="cringe position-relative">
-              <div class="case-image-internalized">
+              <div class="case-image ots4">
                 <img src="../assets/img/img_case4.jpeg" class="img-fluid" alt="4" style = "filter: blur(1px)"/>
               </div>
               <div class="header-date header-date-internalized px-3">
@@ -75,7 +75,7 @@
         <article>
           <a href="#">
             <div class="position-relative">
-              <div class="case-image">
+              <div class="case-image ots5">
                 <img src="../assets/img/img_case5.png" class="img-fluid" alt="5">
               </div>
               <div class="header-date px-3 py-4">
@@ -102,6 +102,16 @@ export default {
 </script>
 
 <style scoped>
+
+@media (max-width: 770px)
+{
+  .ots1, .ots2, .ots3, .ots4, .ots5
+  {
+    max-width: 400px;
+    max-height: 200px;
+  }
+}
+
 .price-text p{
   margin-bottom: 5px;
 }
