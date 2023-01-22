@@ -46,6 +46,7 @@
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
                     aria-controls="collapseTwo"
+                    style="color: black"
                 >
                   <span class="accordion-num">2.</span>Как организована работа
                   поддержки?
@@ -74,6 +75,7 @@
                     data-bs-target="#collapseThree"
                     aria-expanded="false"
                     aria-controls="collapseThree"
+                    style="color: black"
                 >
                   <span class="accordion-num">3.</span>Что происходит, когда
                   отработаны все предоплаченные часы за месяц?
@@ -102,6 +104,7 @@
                     data-bs-target="#collapseFour"
                     aria-expanded="false"
                     aria-controls="collapseFour"
+                    style="color: black"
                 >
                   <span class="accordion-num">4.</span>Что происходит, когда не
                   отработаны все предоплаченные часы за месяц?
@@ -130,6 +133,7 @@
                     data-bs-target="#collapseFive"
                     aria-expanded="false"
                     aria-controls="collapseFive"
+                    style="color: black"
                 >
                   <span class="accordion-num">5.</span>Как происходит оценка и
                   согласование планируемого времени на выполнение заявок?
@@ -158,6 +162,7 @@
                     data-bs-target="#collapseSix"
                     aria-expanded="false"
                     aria-controls="collapseSix"
+                    style="color: black"
                 >
                   <span class="accordion-num">6.</span>Сколько программистов
                   выделяется на проект?
@@ -186,6 +191,7 @@
                     data-bs-target="#collapseSeven"
                     aria-expanded="false"
                     aria-controls="collapseSeven"
+                    style="color: black"
                 >
                   <span class="accordion-num">7.</span>Как подать заявку на
                   внесение изменений на сайте?
@@ -214,6 +220,7 @@
                     data-bs-target="#collapseEight"
                     aria-expanded="false"
                     aria-controls="collapseEight"
+                    style="color: black"
                 >
                   <span class="accordion-num">8.</span>Как подать заявку на
                   добавление пользователя, изменение настроек веб-сервера и
@@ -243,6 +250,7 @@
                     data-bs-target="#collapseNine"
                     aria-expanded="false"
                     aria-controls="collapseNine"
+                    style="color: black"
                 >
                   <span class="accordion-num">9.</span>В течение какого времени
                   начинается работа по заявке?
@@ -271,6 +279,7 @@
                     data-bs-target="#collapseTen"
                     aria-expanded="false"
                     aria-controls="collapseTen"
+                    style="color: black"
                 >
                   <span class="accordion-num">10.</span>В какое время работает
                   поддержка?
@@ -299,6 +308,7 @@
                     data-bs-target="#collapseEleven"
                     aria-expanded="false"
                     aria-controls="collapseEleven"
+                    style="color: black"
                 >
                   <span class="accordion-num">11.</span>Подходят ли услуги
                   поддержки, если необходимо произвести обновление ядра Drupal
@@ -328,6 +338,7 @@
                     data-bs-target="#collapseTwelve"
                     aria-expanded="false"
                     aria-controls="collapseTwelve"
+                    style="color: black"
                 >
                   <span class="accordion-num">12.</span>Можно ли пообщаться со
                   специалистом голосом или в мессенджере?
