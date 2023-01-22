@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class = "col-11 col-md-5 mx-auto">
-            <form id = "Form" action = "https://formcarry.com/s/LKEmd9SHK" method = "POST" enctype = "multipart/form-data" accept-charset = "UTF-8">
+            <form id = "Form" action = "https://formcarry.com/s/cFkX6p8Wc" method = "POST" enctype = "multipart/form-data" accept-charset = "UTF-8">
               <div class = "form-row">
                 <div class = "col-12">
                   <label class = "text-light form-group"><br/>
@@ -64,94 +64,6 @@
   {
     name: "FooterApp"
   }
-
-  /*function Send() {
-    var json = '{"key": "Форма была отправлена"}';
-    var obj = JSON.parse(json);
-    alert(obj.key);
-    var xhr = new XMLHttpRequest();
-    function go() {
-      xhr.open('GET', '/project/form/a.txt', false);
-      xhr.send();
-      var element = document.getElementById('frag');
-      element.innerHTML = xhr.responseText;
-      return false;
-    }
-  }
-
-  let u_name = document.getElementById('Name');
-  let u_phone = document.getElementById('Phone');
-  let u_email = document.getElementById('Email');
-  let u_message = document.getElementById('Text');
-  let u_cb = document.getElementById('CB');
-
-  function save() {
-    localStorage.setItem('Имя', u_name.value);
-    localStorage.setItem('Телефон', u_phone.value);
-    localStorage.setItem('Почта', u_email.value);
-    localStorage.setItem('Сообщение', u_message.value);
-    if (u_cb.checked) {
-      localStorage.setItem('Чекбокс', 1);
-    }
-    else {
-      localStorage.setItem('Чекбокс', 0);
-    }
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    u_name.value = localStorage.getItem('Имя');
-    u_phone.value = localStorage.getItem('Телефон');
-    u_email.value = localStorage.getItem('Почта');
-    u_message.value = localStorage.getItem('Сообщение');
-    let checkBox = localStorage.getItem('Чекбокс');
-    if (checkBox == 1) {
-      u_cb.checked = true;
-    }
-    else if (checkBox == 0) {
-      u_cb.checked = false;
-    }
-
-    u_name.oninput = save;
-    u_phone.oninput = save;
-    u_email.oninput = save;
-    u_message.oninput = save;
-    u_cb.oninput = save;
-
-    window.onpopstate = function () {
-      window.history.back();
-    };
-    history.pushState({page: 1}, 'Form', '?Form');
-
-    $(function () {
-      $('#Form').submit(function (e) {
-        e.preventDefault();
-        $.ajax({
-          type: 'POST',
-          dataType: 'json',
-          url: 'https://formcarry.com/s/LKEmd9SHK',
-          data: $(this).serialsize(),
-          success: function (response) {
-            if (response.status == 'success') {
-              alert('Форма была отправлена!');
-              localStorage.removeItem('Имя');
-              localStorage.removeItem('Телефон');
-              localStorage.removeItem('Почта');
-              localStorage.removeItem('Сообщение');
-              localStorage.removeItem('Чекбокс');
-              u_name.value = localStorage.getItem('Имя');
-              u_phone.valus = localStorage.getItem('Телефон');
-              u_email.value = localStorage.getItem('Почта');
-              u_message.value = localStorage.getItem('Сообщение');
-              u_cb.checked = false;
-            }
-          },
-          error: function (jqxhr, status, errorMsg) {
-            alert('Ошибка!');
-          },
-        });
-      });
-    });
-  });*/
 </script>
 
 <style scoped>

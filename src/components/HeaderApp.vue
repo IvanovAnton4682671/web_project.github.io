@@ -114,7 +114,7 @@
   .morda
   {
     position: absolute;
-    z-index: -0.5;
+    z-index: -1;
     width: 40%;
     height: 130%;
   }
@@ -142,6 +142,7 @@
 
   .btn-tariff
   {
+    z-index: 1;
     color: #fff;
     border-color: #f14d34;
     width: 220px;
@@ -268,4 +269,5 @@
       background-color: #f14d34;
     }
   }
+
 </style>
