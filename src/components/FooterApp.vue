@@ -64,7 +64,7 @@
                       <a href="#"><img src="../assets/img/facebook.svg" alt=""/></a>
                     </li>
                     <li class="emblems-list-item">
-                      <a href="#"><img src="../assets/img/vk.svg" alt="" /> </a>
+                     <a href="#"><img src="../assets/img/vk.svg" alt="" /> </a>
                     </li>
                     <li class="emblems-list-item">
                       <a href="#"
