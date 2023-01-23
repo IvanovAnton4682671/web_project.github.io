@@ -48,7 +48,7 @@
                   </label><br/>
                 </div>
                 <div class = "col-12 mt-3">
-                  <input type = "button" class = "btn btn-footer btn-warning btn-lg btn-block" id = "Button" value = "Свяжитесь с нами!">
+                  <button class = "btn btn-footer btn-warning" type="submit" id = "Button" >Свяжитесь с нами!</button>
                 </div>
               </div>
             </form>
@@ -105,6 +105,7 @@ h1
   .btn-footer
   {
     color: white;
+    width: 100%;
   }
 
   .phone, .email

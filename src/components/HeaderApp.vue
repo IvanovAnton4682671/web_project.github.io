@@ -139,7 +139,6 @@
   {
     background-color: #292b2c;
   }
-
   .btn-tariff
   {
     z-index: 1;
