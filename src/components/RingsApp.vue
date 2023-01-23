@@ -27,62 +27,80 @@
   export default {
     name: "RingsApp"
   }
-    /*let slides = document.querySelectorAll('.slide-single');
-    console.log(slides);
-    let slider = [];
-    for (let i = 0; i < slides.length; i++) {
-      slider[i] = slides[i].src;
-      slides[i].remove();
+  /*let slides = document.querySelectorAll('.slide-single');
+  console.log(slides);
+  let slider = [0];
+  for (let i = 0; i< slides.length; i++)
+  {
+    slider[i] = slides[i].src;
+    slides[i].remove();
+  }
+  console.log(slider);
+  let step = 0;
+  let offset = 0;
+  function draw()
+  {
+    let img = document.createElement('img');
+    img.src = slider[step];
+    img.classList.add('slide-single');
+    img.style.left = offset*512 + 'px';
+    document.querySelector('#slide').appendChild(img);
+    if (step + 1 == slider.length)
+      step = 0;
+    else step++;
+    offset = 1;
+  }
+  function left()
+  {
+    document.onclick = null;
+    let slides2 = document.querySelectorAll('.slide-single');
+    let offset2 = 0;
+    for (let i = 0; i< slides2.length; i++)
+    {
+      slides2[i].style.left = offset2*512 - 512 + 'px';
+      offset2++;
     }
-    console.log(slider);
-    let step = 0;
-    let offset = 0;
-
-    function draw() {
-      let img = document.createElement('img');
-      img.src = slider[step];
-      img.classList.add('slide-single');
-      img.style.left = offset * 350 + 'px';
-      document.querySelector('#slide').appendChild(img);
-      if (step + 1 == slider.length)
-        step = 0;
-      else step++;
-      offset = 1;
-    }
-
-    function left() {
-      let slides2 = document.querySelectorAll('.slide-single');
-      let offset2 = 2;
-      for (let i = 0; i < slides2.length; i++) {
-        slides2[i].style.left = offset2 * 350 - 350 + 'px';
-        offset2++;
-      }
-      setTimeout(function () {
-        slides2[0].remove();
-        draw();
-      }, 0);
-    }
-
-    document.onclick = left;*/
+    setTimeout(function ()
+    {
+      slides2[0].remove();
+      document.onclick = left;
+      draw();
+    }, 1000);
+  }
+  draw(); draw();
+  document.onclick = left;*/
 </script>
 
 <style scoped>
 
-.slide-single
-{
-  width: 350px;
-  height: 150px;
-  border: 1px solid #c4c4c4;
-  margin-left: 3px;
-  margin-right: 3px;
-}
+  /*#slide
+  {
+    width: 512px;
+    height: 512px;
+    border: 3px solid #c4c4c4;
+    margin: 0 auto;
+    position: relative;
+    font-family: sans-serif;
+  }*/
 
-.slide-single2
-{
-  width: 295px;
-  height: 150px;
-  border: 1px solid #c4c4c4;
-  margin-left: 3px;
-  margin-right: 3px;
-}
+  .slide-single
+  {
+    width: 330px;
+    height: 130px;
+    border: 1px solid #c4c4c4;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: all ease 1s;
+  }
+
+  .slide-single2
+  {
+    width: 280px;
+    height: 130px;
+    border: 1px solid #c4c4c4;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: all ease 1s;
+  }
+
 </style>
