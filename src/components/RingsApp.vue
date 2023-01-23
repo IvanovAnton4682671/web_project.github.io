@@ -87,7 +87,7 @@
   {
     width: 330px;
     height: 130px;
-    border: 1px solid #c4c4c4;
+    border: 2px solid #c4c4c4;
     margin-left: 3px;
     margin-right: 3px;
     transition: all ease 1s;
@@ -97,7 +97,7 @@
   {
     width: 280px;
     height: 130px;
-    border: 1px solid #c4c4c4;
+    border: 2px solid #c4c4c4;
     margin-left: 3px;
     margin-right: 3px;
     transition: all ease 1s;

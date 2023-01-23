@@ -15,7 +15,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25 img1" style = "width: 8%; height: 8%"/>
                       <img src = "../assets/img/competency-1.svg" alt = "competency-1" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -120,7 +120,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25 img1" style = "width: 8%; height: 8%"/>
                       <img src = "../assets/img/competency-8.svg" alt = "competency-8" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>

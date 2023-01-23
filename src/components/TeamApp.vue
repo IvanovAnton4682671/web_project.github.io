@@ -139,6 +139,14 @@
   }
 }
 
+@media (max-width: 375px)
+{
+  .ots1, .ots2, .ots3, .ots4, .ots5
+  {
+    margin-left: 10px;
+  }
+}
+
 @media (max-width: 280px)
 {
   .ots1, .ots2, .ots3, .ots4, .ots5
@@ -157,7 +165,7 @@
   {
     color: #292b2c;
     border-color: #292b2c;
-    width: 20%;
+    width: 30%;
     margin-bottom: 50px;
   }
 
