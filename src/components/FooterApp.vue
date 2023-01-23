@@ -48,15 +48,47 @@
                   </label><br/>
                 </div>
                 <div class = "col-12 mt-3">
-                  <button class = "btn btn-footer btn-warning" type="submit" id = "Button" >Свяжитесь с нами!</button>
+                  <button class = "btn btn-footer" type="submit" id = "Button" >Свяжитесь с нами!</button>
                 </div>
               </div>
             </form>
           </div>
         </div>
+        <div class="col-12 footer+">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="row">
+                <div class="emblems-block">
+                  <ul class="emblems-list">
+                    <li class="emblems-list-item">
+                      <a href="#"><img src="../assets/img/facebook.svg" alt=""/></a>
+                    </li>
+                    <li class="emblems-list-item">
+                      <a href="#"><img src="../assets/img/vk.svg" alt="" /> </a>
+                    </li>
+                    <li class="emblems-list-item">
+                      <a href="#"
+                      ><img src="../assets/img/youtube.svg" alt=""
+                      /></a>
+                    </li>
+                    <li class="emblems-list-item">
+                      <a href="#"><img src="../assets/img/telegram.svg" alt=""/></a>
+                    </li>
+                  </ul>
+                  <div class="footerText">
+                    <p>
+                      Проект ООО «Инитлаб», Краснодар, Россия.<br />
+                      Drupal является зарегистрированной торговой маркой Dries Buytaert.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -96,7 +128,13 @@ h1
     top:0;
     bottom:0;
   }
-
+  .emblems-block{
+    margin: 40px;
+  }
+  .emblems-list-item {
+  display: inline-block;
+  margin-right: 10px;
+  }
   .form-politics
   {
     color: #e52d3b;
@@ -104,7 +142,16 @@ h1
 
   .btn-footer
   {
+    display: inline-block;
     color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-radius: 6px;
+    background: #ef4c35;
+    transition: 0.2s;
     width: 100%;
   }
 
@@ -121,5 +168,30 @@ h1
   .info
   {
     background: transparent;
+  }
+  .emblems-list {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  }
+  .emblems-list-item a {
+  width: 30px;
+  height: 30px;
+  background: #f14d34;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  }
+  .emblems-list-item img {
+  width: 18px;
+  height: 16px;
+  filter: invert(1);
+  }
+  .footerText {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  opacity: 0.5;
   }
 </style>
