@@ -85,7 +85,7 @@
 
   .slide-single
   {
-    width: 330px;
+    width: 350px;
     height: 130px;
     border: 2px solid #c4c4c4;
     margin-left: 3px;
@@ -95,7 +95,7 @@
 
   .slide-single2
   {
-    width: 280px;
+    width: 295px;
     height: 130px;
     border: 2px solid #c4c4c4;
     margin-left: 3px;

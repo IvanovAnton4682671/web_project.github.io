@@ -371,7 +371,7 @@ export default {
   position: relative;
   font-weight: bold;
   font-size: 24px;
-  color: black;
+  color: #09113d;
   margin-bottom: 30px;
 }
 .accordion-button {
@@ -381,7 +381,7 @@ export default {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  color: black;
+  color: #09113d;
   line-height: 1;
   transition: color 0.3s;
 }
@@ -394,7 +394,7 @@ export default {
 .accordion-body {
   font-weight: 500;
   font-size: 14px;
-  color: black;
+  color: #09113d;
   line-height: 1.37;
   opacity: 0.7;
 }
@@ -404,11 +404,11 @@ export default {
   text-align: right;
   font-weight: bold;
   font-size: 12px;
-  color: black;
+  color: #6f7688;
   margin-top: 1px;
   margin-right: 3px;
 }
-.accordion-button:hover {
+.accordion-button:hover{
   color: #e04331;
   background: transparent;
   box-shadow: none;
