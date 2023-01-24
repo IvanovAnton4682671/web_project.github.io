@@ -23,8 +23,8 @@
                 class="reviews__arrow__left"
                 src="../assets/img/left.svg"
                 alt=""
-                width="30"
-                height="60"
+                width="16"
+                height="32"
             />
             <p class="counter">{{ counter + 1 }}/8</p>
             <img
@@ -32,8 +32,8 @@
                 class="reviews__arrow__left"
                 src="../assets/img/right.svg"
                 alt=""
-                width="30"
-                height="60"
+                width="16"
+                height="32"
             />
           </div>
         </div>
@@ -148,7 +148,8 @@ export default {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
-  margin: 10px 20px 0px 20px;
+
+  margin: -8px 16px -8px 16px;
 }
 .reviews__img {
   margin-bottom: 20px;
@@ -214,7 +215,7 @@ export default {
   }
 
   .counter {
-    margin: 10px 20px 0px 0px;
+    margin: 10px 20px 0px 20px;
   }
 
   .left_blok {
