@@ -259,7 +259,7 @@
     </div>
     <div class="row">
       <div class="col-3"></div>
-      <div class="col-3 rate-link-block text-center" style = "margin-left: 15em">
+      <div class="col-3 col-sm-6 rate-link-block text-center">
         Вам не подходят наши тарифы? Оставьте заявку и мы предложим вам индивидуальные условия!
         <a href="#FooterApp" class="rate-link d-block mt-3">Получить индивидуальный тариф</a>
       </div>

@@ -21,31 +21,35 @@
             <li class = "nav-item">
               <a class = "active nav-link text-light navbar-effect" aria-current = "page" href = "#">Поддержка Drupal</a>
             </li>
-            <li class = "nav-item dropdown" onmouseover = "showDropdown('#navbarDropdown-1', '#list-1')" onmouseout = "hideDropdown('#navbarDropdown-1', '#list-1')">
-              <a class = "nav-link dropdown-toggle text-light" href = "#" id = "navbarDropdown-1" role = "button" data-toggle = "dropdown" aria-expanded = "false">Администрирование</a>
-              <ul class = "dropdown-menu dropdown-menu-dark" id = "list-1" aria-labelledby = "navbarDropdown-1">
-                <li><a class = "dropdown-item text-light" href = "#">Миграция</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">Бэкапы</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">Аудит безопасности</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">Оптимизация скорости</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">Переезд на HTTPS</a></li>
-              </ul>
-            </li>
+            <ul class = "ddmenu">
+              <li class = "nav-item dropdown">
+                <a class = "nav-link dropdown-toggle text-light" href = "#" id = "navbarDropdown-1" role = "button" data-toggle = "dropdown" aria-expanded = "false">Администрирование</a>
+                <ul class = "dropdown-menu dropdown-menu-dark" id = "list-1" aria-labelledby = "navbarDropdown-1">
+                  <li><a class = "dropdown-item text-light" href = "#">Миграция</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">Бэкапы</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">Аудит безопасности</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">Оптимизация скорости</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">Переезд на HTTPS</a></li>
+                </ul>
+              </li>
+            </ul>
             <li class = "nav-item">
               <a class = "nav-link text-light" href = "#">Продвижение</a>
             </li>
             <li class = "nav-item">
               <a class = "nav-link text-light" href = "#">Реклама</a>
             </li>
-            <li class = "nav-item dropdown" onmouseover = "showDropdown('#navbarDropdown-2', '#list-2')" onmouseout = "showDropdown('#navbarDropdown-2', '#list-2')">
-              <a class = "nav-link dropdown-toggle text-light" href = "#" id = "navbarDropdown-2" role = "button" data-toggle = "dropdown" aria-expanded = "false">О нас</a>
-              <ul class = "dropdown-menu dropdown-menu-dark" id = "list-2" aria-labelledby = "navbarDropdown-2">
-                <li><a class = "dropdown-item text-light" href = "#">Наша команда</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">Отдых</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">Достижения</a></li>
-                <li><a class = "dropdown-item text-light" href = "#">История</a></li>
-              </ul>
-            </li>
+            <ul class = "ddmenu">
+              <li class = "nav-item dropdown">
+                <a class = "nav-link dropdown-toggle text-light" href = "#" id = "navbarDropdown-2" role = "button" data-toggle = "dropdown" aria-expanded = "false">О нас</a>
+                <ul class = "dropdown-menu dropdown-menu-dark" id = "list-2" aria-labelledby = "navbarDropdown-2">
+                  <li><a class = "dropdown-item text-light" href = "#">Наша команда</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">Отдых</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">Достижения</a></li>
+                  <li><a class = "dropdown-item text-light" href = "#">История</a></li>
+                </ul>
+              </li>
+            </ul>
             <li class = "nav-item">
               <a class = "nav-link text-light" href = "#">Проекты</a>
             </li>
@@ -111,6 +115,51 @@
 </script>
 
 <style scoped>
+
+  .ddmenu
+  {
+    display: flex;
+  }
+
+  .ddmenu li
+  {
+    width: 200px;
+    list-style: none;
+    background: none;
+    position: relative;
+  }
+
+  .ddmenu a
+  {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+  }
+
+  .ddmenu a:hover
+  {
+    background: none;
+  }
+
+  .ddmenu ul
+  {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+  }
+
+  .ddmenu li:hover ul
+  {
+    display: block;
+  }
+
   .morda
   {
     position: absolute;
@@ -139,7 +188,6 @@
   {
     background-color: #292b2c;
   }
-
   .btn-tariff
   {
     z-index: 1;
