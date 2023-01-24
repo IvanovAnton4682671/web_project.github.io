@@ -14,7 +14,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-20.svg" alt = "competency-20" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -30,7 +30,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-21.svg" alt = "competency-21" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -46,7 +46,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-22.svg" alt = "competency-22" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -63,43 +63,44 @@
 </template>
 
 <script>
-  export default
-  {
-    name: 'TimeApp'
-  }
+export default
+{
+  name: 'TimeApp'
+}
 </script>
 
 <style scoped>
+.time
+{
+  margin-bottom: 50px;
+}
 
-  .time
+@media (max-width: 1300px)
+{
+  .container
   {
-    margin-bottom: 50px;
+    position: relative;
+    z-index: 15;
   }
-
-  @media (max-width: 1300px)
-  {
-    .container
-    {
-      position: relative;
-      z-index: 15;
-    }
-  }
-
-  .competencies
-  {
-    padding: 150px 0;
-  }
-
-  .competency-title
-  {
-    font-size: 42px;
-    font-weight: 1000;
-    margin-bottom: 20px;
-  }
-
-  .competency-body
-  {
-    font-size: 15px;
-    margin-top: 20px;
-  }
+}
+.competencies
+{
+  padding: 150px 0;
+}
+.logoForOpacity{
+  opacity: 15%;
+  width: 8%;
+  height: 8%
+}
+.competency-title
+{
+  font-size: 42px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+.competency-body
+{
+  font-size: 15px;
+  margin-top: 20px;
+}
 </style>

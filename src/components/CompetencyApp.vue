@@ -15,7 +15,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25 img1" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-1.svg" alt = "competency-1" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -30,7 +30,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-2.svg" alt = "competency-2" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -45,7 +45,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-3.svg" alt = "competency-3" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -60,7 +60,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-4.svg" alt = "competency-4" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -75,7 +75,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-5.svg" alt = "competency-5" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -90,7 +90,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-6.svg" alt = "competency-6" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -105,7 +105,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-7.svg" alt = "competency-7" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -120,7 +120,7 @@
                 <div class = "competency-header">
                   <div class = "competency-icon">
                     <div class = "container">
-                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute opacity-25 img1" style = "width: 8%; height: 8%"/>
+                      <img src = "../assets/img/druplar-logo.svg" alt = "druplar-logo" class = "position-absolute logoForOpacity"/>
                       <img src = "../assets/img/competency-8.svg" alt = "competency-8" class = "img-responsive position-relative" style = "margin-left: 3em"/>
                     </div>
                   </div>
@@ -136,42 +136,46 @@
 </template>
 
 <script>
-  export default
-  {
-    name: 'CompetencyApp'
-  }
+export default
+{
+  name: 'CompetencyApp'
+}
 </script>
 
 <style scoped>
-  @media (max-width: 1300px)
+@media (max-width: 1300px)
+{
+  .container
   {
-    .container
-    {
-      position: relative;
-      z-index: 15;
-    }
+    position: relative;
+    z-index: 15;
   }
+}
 
-  .competencies
-  {
-    padding: 100px 0;
-  }
+.competencies
+{
+  padding: 100px 0;
+}
 
-  .competency-title
-  {
-    font-size: 42px;
-    font-weight: 1000;
-    margin-bottom: 20px;
-  }
+.competency-title
+{
+  font-size: 42px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
 
-  .competencies-description
-  {
-    margin-bottom: 55px;
-  }
-
-  .competency-body
-  {
-    font-size: 15px;
-    margin-top: 20px;
-  }
+.competencies-description
+{
+  margin-bottom: 55px;
+}
+.logoForOpacity{
+  opacity: 15%;
+  width: 8%;
+  height: 8%
+}
+.competency-body
+{
+  font-size: 15px;
+  margin-top: 20px;
+}
 </style>

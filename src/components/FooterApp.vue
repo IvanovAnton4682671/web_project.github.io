@@ -19,7 +19,7 @@
           </div>
           <div class = "col-11 col-md-5 mx-auto">
             <form id = "Form" action = "https://formcarry.com/s/cFkX6p8Wc" method = "POST" enctype = "multipart/form-data" accept-charset = "UTF-8">
-              <div class = "form-row">
+              <div class = "form-row" style = "margin-left: 4em ">
                 <div class = "col-12">
                   <label class = "text-light form-group"><br/>
                     <input class = "form-control form-control-md info" type = "text" id = "Name" name = "lastName" placeholder = "Ваше имя" autocomplete = "off">
@@ -64,7 +64,7 @@
                       <a href="#"><img src="../assets/img/facebook.svg" alt=""/></a>
                     </li>
                     <li class="emblems-list-item">
-                     <a href="#"><img src="../assets/img/vk.svg" alt="" /> </a>
+                      <a href="#"><img src="../assets/img/vk.svg" alt="" /> </a>
                     </li>
                     <li class="emblems-list-item">
                       <a href="#"
@@ -87,15 +87,15 @@
           </div>
         </div>
       </div>
-      </div>
     </div>
+  </div>
 </template>
 
 <script>
-  export default
-  {
-    name: "FooterApp"
-  }
+export default
+{
+  name: "FooterApp"
+}
 </script>
 
 <style scoped>
@@ -111,87 +111,91 @@ h1
   color: #e5e5e5;
   margin-bottom: 5em;
 }
-  .footer_region
-  {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
+.footer_region
+{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url("../assets/img/druplar-emblem.svg") top center,
+  url("../assets/img/druplar-emblem2.png") bottom right;
+  background-repeat: no-repeat;
+}
 
-  .footer_background
-  {
-    position: absolute;
-    z-index: -2;
-    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),#040613;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-  }
-  .emblems-block{
-    margin: 40px;
-  }
-  .emblems-list-item {
+.footer_background
+{
+  position: absolute;
+  z-index: -2;
+  background: linear-gradient(254.72deg, rgba(245, 240, 240, 0.27) -114.85%, rgba(252, 249, 249, 0) 69.04%), #06091c;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.emblems-block{
+  margin: 40px;
+}
+.emblems-list-item {
   display: inline-block;
   margin-right: 10px;
-  }
-  .form-politics
-  {
-    color: #e52d3b;
-  }
+}
+.form-politics
+{
+  color: #ef4c35;
+}
 
-  .btn-footer
-  {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 1em 2em;
-    outline: none;
-    border-width: 2px 0;
-    border-style: solid none;
-    border-radius: 6px;
-    background: #ef4c35;
-    transition: 0.2s;
-    width: 100%;
-  }
+.btn-footer
+{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-radius: 6px;
+  background: #ef4c35;
+  transition: 0.2s;
+  width: 100%;
+}
 
-  .phone, .email
-  {
-    font-size:25px;
-  }
+.phone, .email
+{
+  font-size:25px;
+}
 
-  .form-group
-  {
-    width: 100%;
-  }
+.form-group
+{
+  width: 100%;
+}
 
-  .info
-  {
-    background: transparent;
-  }
-  .emblems-list {
+.info
+{
+  background: transparent;
+}
+.emblems-list {
   list-style: none;
   display: flex;
   padding-left: 0;
-  }
-  .emblems-list-item a {
+}
+.emblems-list-item a {
   width: 30px;
   height: 30px;
   background: #f14d34;
   display: inline-block;
   text-align: center;
   border-radius: 5px;
-  }
-  .emblems-list-item img {
+}
+.emblems-list-item img {
   width: 18px;
   height: 16px;
   filter: invert(1);
-  }
-  .footerText {
+}
+.footerText {
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
   opacity: 0.5;
-  }
+}
 </style>
