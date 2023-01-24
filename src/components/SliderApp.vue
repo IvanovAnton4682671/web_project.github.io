@@ -4,11 +4,9 @@
     <div class="reviews__blok">
       <div class="reviews__wrapper">
         <div class="left_blok">
-          <div
-              class="reviews__left"
+          <div class="reviews__left"
               v-for="(item, i) in infoList.length"
-              :key="item"
-          >
+              :key="item">
             <div v-if="counter === i">
               <img class="reviews__img" :src="itemImage" alt="" />
               <h6 class="reviews__text">{{ infoList[i].text }}</h6>
@@ -18,23 +16,19 @@
         </div>
         <div class="right_blok">
           <div class="reviews__right">
-            <img
-                @click="() => (counter > 0 ? counter-- : counter)"
+            <img @click="() => (counter > 0 ? counter-- : counter)"
                 class="reviews__arrow__left"
                 src="../assets/img/left.svg"
                 alt=""
                 width="16"
-                height="32"
-            />
+                height="32"/>
             <p class="counter">{{ counter + 1 }}/8</p>
-            <img
-                @click="() => (counter < 7 ? counter++ : counter)"
+            <img @click="() => (counter < 7 ? counter++ : counter)"
                 class="reviews__arrow__left"
                 src="../assets/img/right.svg"
                 alt=""
                 width="16"
-                height="32"
-            />
+                height="32"/>
           </div>
         </div>
       </div>
