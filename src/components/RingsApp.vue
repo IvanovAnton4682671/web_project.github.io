@@ -1,5 +1,5 @@
 <template>
-  <div class = "container-fluid" style = "margin-top: 2500px">
+  <div class = "container-fluid" style = "margin-top: 200px">
     <div class = "text-center">
       <h1>С нами работают</h1>
       <p class = "text-center">Десятки компаний доверяют нам самое ценное, что у них есть в интренете - свои сайты.</p>
